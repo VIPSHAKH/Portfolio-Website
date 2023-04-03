@@ -33,7 +33,7 @@ import Typewriter from "typewriter-effect";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import ProgressBar from "react-animated-progress-bar";
 
-
+import Model from "../components/logo";
 import { Canvas } from "@react-three/fiber";
 import { Loader, OrbitControls, ContactShadows } from "@react-three/drei";
 
@@ -86,7 +86,33 @@ function Home() {
             w="500px"
             h="500px"
           >
-          <Loader />
+            <Canvas
+              width={700}
+              height={700}
+              pixelRatio={[1, 2]}
+              camera={{ position: [-3, 2, 15], fov: fov }}
+            >
+              <ambientLight intensity={0.6} />
+              <directionalLight position={[-2, 5, 2]} />
+              <Suspense fallback={null}>
+                <Model />
+                <ContactShadows
+                  rotation-x={Math.PI / 2}
+                  position={[0, -0.8, 0]}
+                  opacity={1}
+                  width={10}
+                  height={10}
+                  blur={1.5}
+                  far={0.8}
+                />
+              </Suspense>
+              <OrbitControls
+                makeDefault
+                minPolarAngle={0}
+                maxPolarAngle={Math.PI / 1.75}
+              />
+            </Canvas>
+            <Loader />
           </Box>
         </Flex>
         <Stack data-aos="zoom-in-up">
