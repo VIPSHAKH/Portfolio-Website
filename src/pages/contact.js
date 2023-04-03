@@ -25,7 +25,7 @@ import Swal from "sweetalert2";
 import validationSchema from "./validations";
 
 function Contact() {
-  const { hasCopied, onCopy } = useClipboard("edizkeskin@gmail.com");
+  const { hasCopied, onCopy } = useClipboard("shakhvip@gmail.com");
 
   const formik = useFormik({
     initialValues: {
@@ -42,12 +42,12 @@ function Contact() {
           values,
           process.env.REACT_APP_EMAIL_ID
         );
-        console.log("SUCCESS!");
+        console.log("Bajarildi!");
         resetForm();
         Swal.fire({
           position: "center",
           icon: "success",
-          title: "Message sent.",
+          title: "Yuborildi.",
           showConfirmButton: false,
 
           timer: 2000,
@@ -56,7 +56,7 @@ function Contact() {
         Swal.fire({
           position: "center",
           icon: "error",
-          title: "Message could not be delivered.",
+          title: "Xatolik ro'y berdi.",
           showConfirmButton: false,
           timer: 2000,
         });
@@ -87,7 +87,7 @@ function Contact() {
                 color="white"
               >
                 <Tooltip
-                  label={hasCopied ? "Email Copied!" : "Copy Email"}
+                  label={hasCopied ? "Email nusxalandi!" : "Nusxalash"}
                   closeOnClick={false}
                   hasArrow
                 >
@@ -112,7 +112,7 @@ function Contact() {
                   color="black"
                   borderRadius={"md"}
                 >
-                  <Link href="https://github.com/EdizKeskin" target={"_blank"}>
+                  <Link href="https://github.com/vipshakh" target={"_blank"}>
                     <IconButton
                       aria-label="github"
                       variant="ghost"
@@ -135,7 +135,7 @@ function Contact() {
                   borderRadius={"md"}
                 >
                   <Link
-                    href="https://www.instagram.com/sharpness_4/"
+                    href="https://www.instagram.com/shokirovc.1"
                     target={"_blank"}
                   >
                     <IconButton
@@ -159,7 +159,7 @@ function Contact() {
                   borderRadius={"md"}
                 >
                   <Link
-                    href="https://twitter.com/sharpness_4"
+                    href="https://twitter.com/vipshakh"
                     target={"_blank"}
                   >
                     <IconButton
@@ -188,13 +188,13 @@ function Contact() {
                 <form onSubmit={formik.handleSubmit}>
                   <VStack spacing={5}>
                     <FormControl isRequired>
-                      <FormLabel>Name</FormLabel>
+                      <FormLabel>Ism</FormLabel>
                       <InputGroup>
                         <InputLeftElement children={<BsPerson />} />
                         <Input
                           type="text"
                           name="name"
-                          placeholder="Your Name"
+                          placeholder="Sizning ismingiz"
                           onChange={formik.handleChange}
                           onBlur={formik.handleBlur}
                           value={formik.values.name}
@@ -217,12 +217,12 @@ function Contact() {
                           isInvalid={
                             formik.touched.email && formik.errors.email
                           }
-                          placeholder="Your Email"
+                          placeholder="Sizning emailingiz"
                         />
                       </InputGroup>
                     </FormControl>
                     <FormControl isRequired>
-                      <FormLabel>Message</FormLabel>
+                      <FormLabel>Xabar</FormLabel>
                       <Textarea
                         name="message"
                         onChange={formik.handleChange}

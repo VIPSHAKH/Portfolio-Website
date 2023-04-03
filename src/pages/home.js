@@ -154,11 +154,11 @@ function Home() {
                   onInit={(typewriter) => {
                     typewriter
                       .pauseFor(120)
-                      .typeString("<span>Junior Frontend Developer<span>")
+                      .typeString("<span>Yosh dasturchi<span>")
                       .pauseFor(600)
                       .deleteAll()
                       .pauseFor(600)
-                      .typeString("<span>Learning Reactjs<span>")
+                      .typeString("<span>Student<span>")
                       .pauseFor(600)
                       .start();
                   }}
@@ -186,7 +186,7 @@ function Home() {
               >
                 <Text
                   as={"a"}
-                  href={"https://github.com/EdizKeskin"}
+                  href={"https://github.com/VIPSHAKH"}
                   mr="6"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -207,7 +207,7 @@ function Home() {
               >
                 <Text
                   as={"a"}
-                  href={"https://www.instagram.com/sharpness_4/"}
+                  href={"https://www.instagram.com/shokirovc.1"}
                   mr="6"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -228,7 +228,7 @@ function Home() {
               >
                 <Text
                   as={"a"}
-                  href={"https://steamcommunity.com/id/sharpness4"}
+                  href={"https://steamcommunity.com/id/vipshakh"}
                   mr="6"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -249,7 +249,7 @@ function Home() {
               >
                 <Text
                   as={"a"}
-                  href={"https://twitter.com/EdizKeskin_"}
+                  href={"https://twitter.com/VIPSHAKH"}
                   target="_blank"
                   rel="noopener noreferrer"
                   color={textColor}
@@ -288,8 +288,8 @@ function Home() {
           textAlign={"center"}
           data-aos="zoom-in-up"
         >
-          Hello my name is Ediz Keskin. I&apos;m 17 years old. I want to be Full
-          stack developer in the future.
+          Assalomu Aleykum. Mening ismim Shaxrux. Xorazmlik yosh dasturchiman. 
+		Sizga quyidagi xizmatlarni taklif etaman. 
         </Text>
         <Stack
           spacing={{ base: 4, sm: 6 }}

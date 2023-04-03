@@ -39,7 +39,7 @@ function Err404() {
             bg="transparent"
             backdropFilter={"blur(2px)"}
           >
-            Home
+            Asosiy
           </Button>
         </Link>
       </Box>
