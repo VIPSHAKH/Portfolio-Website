@@ -49,27 +49,27 @@ function Home() {
   const skills = [
     {
       name: "HTML",
-      value: "90",
+      value: "59",
       icon: <FaHtml5 size="1.5em" />,
     },
     {
       name: "CSS",
-      value: "70",
+      value: "43",
       icon: <FaCss3Alt size="1.5em" />,
     },
     {
       name: "JavaScript",
-      value: "70",
+      value: "32",
       icon: <FaJs size="1.5em" />,
     },
     {
       name: "React",
-      value: "75",
+      value: "19",
       icon: <FaReact size="1.5em" />,
     },
     {
-      name: "RPG GAMES",
-      value: "100",
+      name: "PUBG MOBILE",
+      value: "86",
     },
   ];
   return (
@@ -124,7 +124,7 @@ function Home() {
               textAlign={"center"}
             >
               <Text mb={"2"} color="white">
-                I'm
+                Men
                 <Text
                   as={"span"}
                   position={"relative"}
@@ -141,7 +141,7 @@ function Home() {
                     zIndex: -1,
                   }}
                 >
-                  Ediz Keskin
+                  Shaxrux
                 </Text>
               </Text>
               <Text fontSize={{base:"2xl", sm: "4xl", lg: "6xl" }} as={"span"} color={"red.400"}>
@@ -275,7 +275,7 @@ function Home() {
                 transition="all 0.3s"
                 _hover={{ bgColor: "transparent", color: "red.400" }}
               >
-                About
+                Haqida
               </Button>
             </Link>
           </Stack>
@@ -303,24 +303,24 @@ function Home() {
             data-aos="zoom-in-up"
           >
             <Heading as={"h2"} color={"red.400"}>
-              Favorite activities
+              Sevimli mashg'ulotlarim
             </Heading>
             <List spacing={3} color="white">
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Playing video games
+                PUBG MOBILE o'yini
               </ListItem>
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Reading book
+                Sayt yaratish
               </ListItem>
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Learning something new
+                Yangi narsa o'rganish
               </ListItem>
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Love chit chat with my friends
+                Do'stlar bilan suhbat
               </ListItem>
             </List>
           </VStack>
@@ -331,24 +331,24 @@ function Home() {
             data-aos="zoom-in-up"
           >
             <Heading as={"h2"} color={"red.400"}>
-              Favorite Movies and Series
+              Mufaqqiyatlarim
             </Heading>
             <List spacing={3} color="white">
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Breaking Bad
+                2020-yil Litseyga kirish.
               </ListItem>
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Daredevil
+                Web-dasturlash kursini tugallash.
               </ListItem>
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Star Wars series
+                Python kursini tugallash
               </ListItem>
               <ListItem>
                 <ListIcon as={AiOutlineDoubleRight} color="green.500" />
-                Leon The Professional
+                SMM
               </ListItem>
             </List>
           </VStack>
@@ -360,7 +360,7 @@ function Home() {
           id="skills"
           data-aos="zoom-in-up"
         >
-          Skills
+          NIMANI BILAMAN?
         </Heading>
         <Grid
           templateColumns={{
