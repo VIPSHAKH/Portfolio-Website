@@ -33,7 +33,7 @@ import Typewriter from "typewriter-effect";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import ProgressBar from "react-animated-progress-bar";
 
-import Model from "../components/logo";
+
 import { Canvas } from "@react-three/fiber";
 import { Loader, OrbitControls, ContactShadows } from "@react-three/drei";
 
