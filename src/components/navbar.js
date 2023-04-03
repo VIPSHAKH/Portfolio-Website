@@ -16,15 +16,15 @@ import { Link } from "react-router-dom";
 
 const links = [
   {
-    name: "Home",
+    name: "Asosiy",
     path: "/",
   },
   {
-    name: "Contact",
+    name: "Bog'lanish",
     path: "/contact",
   },
   {
-    name: "Projects",
+    name: "Loyihalar",
     path: "/Projects",
   },
 ];
@@ -106,7 +106,7 @@ function Navbar() {
           justifyContent="center"
         >
           <Heading as={"h1"} fontSize="xl">
-            Sharpness
+            VIPSHAKH
           </Heading>
           <Flex display={{ base: "none", sm: "flex" }} ml={10}>
             <DesktopNav />

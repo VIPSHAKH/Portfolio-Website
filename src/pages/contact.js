@@ -246,7 +246,7 @@ function Contact() {
                       }}
                       isFullWidth
                     >
-                      Send Message
+                      Xabar yuborish
                     </Button>
                   </VStack>
                 </form>

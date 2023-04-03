@@ -24,9 +24,9 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/" element={<Asosiy />} />
+          <Route path="/contact" element={<Bog'lanish />} />
+          <Route path="/projects" element={<Loyihalar />} />
           <Route path="*" element={<Err404 />} />
         </Routes>
       </div>
